@@ -283,6 +283,10 @@ body {
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;    
+        @media screen and (max-width: 1400px) {
+            width: 300px;
+            
+        }
         @media screen and (max-width:650px) {
             width: 300px;
         }
@@ -340,6 +344,9 @@ body {
             @media screen and (max-width:650px) {
                 margin-left: 0.2rem;
             }
+        }
+        @media screen and (max-width: 1400px) {
+            top: 20%;
         }
         @media screen and (min-width: 651px) and (max-width: 1023px) {
             top: 20%;
