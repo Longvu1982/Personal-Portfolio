@@ -29,7 +29,7 @@ const aboutList = [
         img: './img/about/school.jpg'
     },
     {
-        heading: 'Coding',
+        heading: 'Programming',
         dsc: 'I have one year of experience in coding with HTML, CSS and Javascript',
         img: './img/about/code.jpg'
     },
@@ -212,8 +212,8 @@ const projects = [
          <div class="portfolio-project">
              <div class="project-img" style="background-image:url(${element.img}) ;">
                 <div class="project-overlay">
-                    <a href="${element.repo}"><i class="fa-solid fa-link"></i></a>
-                    <a href="${element.link}"><i class="fa-solid fa-eye"></i></a>
+                    <a target="_blank" href="${element.repo}"><i class="fa-solid fa-link"></i></a>
+                    <a target="_blank" href="${element.link}"><i class="fa-solid fa-eye"></i></a>
                 </div>
              </div>
              <div class="project-info">

@@ -6,6 +6,9 @@ html {
     transition: all 0.3s ease-in-out;
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+  display: none;
+}
   
 *, *:before, *:after {
     box-sizing: inherit;
